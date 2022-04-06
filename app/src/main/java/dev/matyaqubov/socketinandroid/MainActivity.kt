@@ -101,7 +101,6 @@ class MainActivity : AppCompatActivity() {
 
             @RequiresApi(Build.VERSION_CODES.N)
             override fun getFormattedValue(value: Float): String {
-
                 return mFormat.format(Date(System.currentTimeMillis()))
             }
         }
